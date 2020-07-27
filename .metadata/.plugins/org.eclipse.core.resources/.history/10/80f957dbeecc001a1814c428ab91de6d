@@ -1,0 +1,27 @@
+package gcdemos;
+
+import java.util.Scanner;
+
+public class CodeChallenge {
+
+	public static void main(String[] args) {
+		System.out.println("please enter your age");
+		Scanner scnr = new Scanner(System.in);
+			int age = scnr.nextInt();
+			int daysInYear=365;	
+	}
+//	public static void ageInDays(int ageInDays) {
+//		int ageInDay = (age * daysInYear);{
+//		System.out.println(ageInDays);
+//		}
+//	public static void daysTill(int  )
+//	}
+
+	
+	
+	
+	
+	
+	
+	
+}

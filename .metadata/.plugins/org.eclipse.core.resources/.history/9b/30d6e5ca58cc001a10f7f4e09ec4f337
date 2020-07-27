@@ -1,0 +1,40 @@
+
+public class methodLab {
+
+	public static void main(String[] args) {
+		capitalize("jaSon");
+		wheresWaldo("wheres Waldo");
+	}
+	public static void capitalize(String word) {
+		String first = word.substring(0, 1).toUpperCase();
+		String rest = word.substring(1).toLowerCase();
+		word = first + rest;
+		System.out.println(word);
+	}
+	public static void wheresWaldo(String phrase) {
+		String myStr = "Hello planet earth, you are a great planet.";
+		System.out.println(myStr.indexOf("planet"));
+	    
+	}
+
+	public static void firstThingsFirst(String a, String b) {
+	
+	}
+
+	public static void reverse(String s) {
+	
+	}
+	public static void soLong(String a, String b) {
+	
+	}
+
+	public static void afterMath(String phrase) {
+	
+	}
+
+	public static void letterize(String word) {
+	
+	}
+
+}
+

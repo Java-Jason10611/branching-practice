@@ -1,0 +1,16 @@
+package gcdemos;
+
+import java.util.Scanner;
+
+public class wiledemo {
+
+	public static void main(String[] args) {
+		
+		System.out.println("enter somthing to herar it echo!");
+		
+		Scanner scnr =new Scanner(System.in);
+		System.out.println(scnr);
+
+	}
+
+}

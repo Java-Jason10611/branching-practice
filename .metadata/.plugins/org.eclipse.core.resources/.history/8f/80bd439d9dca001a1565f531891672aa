@@ -1,0 +1,23 @@
+package gcdemos;
+import java.util.Scanner;
+
+
+public class MilageExercise {
+
+	public static void main(String[] args) {	
+		int mpg = 0;
+		int gallonsInTank= 0;
+		int milesTillE = 0;
+		
+		System.out.println("Enter cars average mpg?");
+		Scanner mpgs = new Scanner(System.in);
+		int carsMpg = mpgs.nextInt();
+		System.out.println("gallons left in tank?");
+		Scanner gallons = new Scanner(System.in);
+		int gasLeft = gallons.nextInt();
+		int milesTillEmpty = mpg*gallonsInTank;
+		System.out.println("you have about " + milesTillEmpty + " miles till you're empty");
+		
+	}
+
+}

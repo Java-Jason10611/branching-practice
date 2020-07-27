@@ -1,0 +1,16 @@
+package lab3;
+
+import java.util.Scanner;
+
+public class Labthree {
+
+	public static void main(String[] args) {
+
+	System.out.println("Whats your name?");
+	Scanner newName =new Scanner(System.in);
+	String  name = newName.nextLine() ;
+			System.out.println("hello " + name);
+
+	}
+
+}
